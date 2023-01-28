@@ -11784,17 +11784,17 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .html {
-  width: 80%; 
+  width: 60%; 
   background-color: rgb(255, 200, 0);
   border-radius: 10px;
 }
-.css {width: 70%; background-color: rgb(255, 200, 0);
+.css {width: 60%; background-color: rgb(255, 200, 0);
   border-radius: 10px;}
 .js {width: 50%; background-color: rgb(255, 200, 0);
   border-radius: 10px;}
 .php {width: 50%; background-color: rgb(255, 200, 0);
   border-radius: 10px;}
-.sql {width: 80%; background-color: rgb(255, 200, 0);
+.sql {width: 60%; background-color: rgb(255, 200, 0);
   border-radius: 10px;}
 
 .section-skills {
