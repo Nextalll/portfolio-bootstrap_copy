@@ -30,6 +30,7 @@
                         <li class="nav-item"><a class="nav-link" href="#team">A propos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Mon parcours</a></li>
                         <li class="nav-item"><a class="nav-link" href="#skills">Mes compétences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tableau">Tableau de compétences</a></li>
                         <li class="nav-item"><a class="nav-link" href="#ecole">Ecole</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Stage_entreprise">Stage & Entreprise</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
@@ -136,6 +137,16 @@
                     <div class="skills sql">70%</div>
                 </div>
         </section>
+        <!--Tableau de competences-->
+        <section class="tableau-skills" id="tableau">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Tableau de compétences</h2>
+                    <br>
+                    <a class="btn btn-primary btn-xl text-uppercase" href="assets/pdf/Tableau_Synthese_E4.pdf" target="blank">Mon tableau</a>
+               </div>
+            </div>
+        </section>
         <!-- Ecole -->
         <section class="page-section" id="ecole">
             <div class="container">
@@ -192,20 +203,20 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
-                        <!---<div class="portfolio-item">
+                        <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/Logo_youtube.jpg" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/logo.png" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading"></div>
-                                <div class="portfolio-caption-subheading text-muted">Passe temps</div>
+                                <div class="portfolio-caption-heading">N&S Client Lourd</div>
+                                <div class="portfolio-caption-subheading text-muted">Projet</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">-->
+                    <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
@@ -230,7 +241,7 @@
                                 <img class="img-fluid" src="assets/img/portfolio/logo.png" alt="..."/>
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Neige & Soleil</div>
+                                <div class="portfolio-caption-heading">N&S Client Léger</div>
                                 <div class="portfolio-caption-subheading text-muted">Projet</div>
                             </div>
                         </div>
@@ -399,11 +410,21 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Montage vidéo</h2>
-                                    <a href="https://www.youtube.com/channel/UCkhho5jjfq5nAAmRD77D1uw" target="blank">
-                                    <p class="item-intro text-muted">J'ai déjà utilisé un logiciel de montage vidéo.</p> </a>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Logo_youtube.jpg" alt="..." />
-                                    <p>Pendant le confinement, j'ai voulu expérimenter des horizons que je n'ai pas plus faire par manque de temps avant que le confinement arrive. J'ai donc tester le montage de vidéo. Le but était de faire une vidéo en mettant des bouts de vidéo qui permette de crée une vidéo en elle même. J'ai rajouté des effets comme des effets de transitions.</p>
+                                    <h2 class="text-uppercase">Création d'un client lourd</h2>
+                                    <p class="item-intro text-muted">J'ai creé un client lourd sur Java avec mon groupe.</p> </a>
+                                    <div class="row" style="display: flex;">
+                                        <div class="column">
+                                            <img class="img-project" src="assets\img\project/Image_NS_Lourd_1.png" alt="" style="width: 150%"/>
+                                        </div>
+                                        <div class="column">
+                                            <img class="img-project" src="assets\img\project/Image_NS_Lourd_2.png" alt="" style="width: 150%"/>
+                                        </div>
+                                        <div class="column">
+                                            <img class="img-project" src="assets\img\project/Image_NS_Lourd_3.png" alt="" style="width: 150%"/>
+                                        </div>
+                                    </div>
+                                    <p>Avec mon groupe, nous avons crée un client lourd en utilisant Java-Swing qui permet un accès à tout les clients, les réservations et les propriétaires dans le thème d'un site de location de vacances en montagnes.</p>
+                                    <p>L'application contient un moyen de connexion, de modification de clients et des réservations, ainsi que de la suppresion de clients.</p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong></strong>
@@ -411,7 +432,7 @@
                                         </li>
                                         <li>
                                             <strong>Catégorie:</strong>
-                                            Divertissement
+                                            Projet
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
